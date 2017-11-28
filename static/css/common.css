@@ -1,0 +1,26 @@
+html,
+body {
+    background-color: #ECEFF3;
+}
+
+.red-bg {
+    background-color: #f23030;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+/* 顶部样式 */
+header {
+    background-image: url(../img/topbg.png);
+    background-color: #f23030;
+}
+#header .mui-title {
+    font-size: 20px;
+}
+
+/* 侧边栏样式 */
+.nav-item-icon::before {
+    content: "\e686";
+}
